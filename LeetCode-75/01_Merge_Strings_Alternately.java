@@ -29,11 +29,3 @@ class Solution {
     return out;
     }
 }
-class Main{
-    public static void main(String [] args)
-    {
-        Scanner S=new Scanner(System.in);
-        Solution s=new Solution();
-        s.mergeAlternately(S.next(),S.next());
-    }
-}
